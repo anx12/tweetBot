@@ -1,19 +1,28 @@
 # IMPORTANT: Don't run this script using your main account, use a different account
-# I do not gurantee that your account won't be blocked
+> I do not gurantee that your account won't be blocked
 
+## The script is for sending tweets from your account automatically every 60 seconds
 
-# The script is for sending tweets from your account every 60 seconds
 Every 60 seconds because twitter has a cap of 2400 tweets every 24 hours.
 I wouldn't recommend anything less than 37 seconds or your account might get blocked by Twitter.
 
-You need to have a developer account for this and then you need to create an app. Make sure to set 
-the app permissions to 'read and write' and then generate the 'access_token' and 'access_token_secret' keys. 
+### PREREQUISITES
+* Developer account: You need to have a developer account for this and then you need to create an app. Make sure to set the app permissions to 'read and write' and then generate the 'access_token' and 
+'access_token_secret' keys. 
 Make sure to save the api_key, api_secret_key, access_token and access_token_secret key to your notepad before proceeding and then put them in your script.py
 https://developer.twitter.com/apps
 
+* [Git](https://git-scm.com/downloads)
+
+* [Heroku Account](https://www.heroku.com/)
+
+* [Python](https://www.python.org/downloads/)
+
+
 Additional info: Each tweet send from a single twitter account has to be unique hence the time stamp in line(21) in script.py which makes every tweet unique
 
-#Running the script
+
+# Running the script
    ```I would recommend running the script locally on your machine
    If you do plan to run the script on a server then
    increase the time from 60 seconds to 180 seconds
