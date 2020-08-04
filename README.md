@@ -28,8 +28,8 @@ Additional info: Each tweet send from a single twitter account has to be unique 
    increase the time from 60 seconds to 180 seconds
    ```
 
-1. If you want to run the script on your machine just run the script.py from terminal or command-prompt using:
-   If you are using Windows you need to install python https://www.python.org/downloads/
+1. If you want to run the script locally on your machine just run the script.py:
+   NOTE-If you are using Windows you need to install python https://www.python.org/downloads/
    Open terminal or command-prompt in the folder where your script.py is saved and enter the following commands:
    ```bash
    $ pip install tweepy
