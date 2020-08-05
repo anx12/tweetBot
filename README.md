@@ -7,9 +7,11 @@ Every 60 seconds because twitter has a cap of 2400 tweets every 24 hours.
 I wouldn't recommend anything less than 37 seconds or your account might get blocked by Twitter.
 
 ### PREREQUISITES
-* [Developer account](https://developer.twitter.com/apps) You need to have a developer account for this and then you need to create an app. Make sure to set the app permissions to 'read and write' and then generate the 'access_token' and 
-'access_token_secret' keys. 
-Make sure to save the api_key, api_secret_key, access_token and access_token_secret key to your notepad before proceeding and then put them in your script.py
+* [Developer account](https://developer.twitter.com/apps) You need to have a developer account for this and then you need to create an app. 
+   Make sure to set the app permissions to 'read and write' and then generate the 'access_token' and 
+   'access_token_secret' keys. 
+   Make sure to save the api_key, api_secret_key, access_token and access_token_secret key to your notepad before proceeding and then put them in your script.py
+   Also change your tweet in script.py in line(21)
 https://developer.twitter.com/apps
 
 * [Git](https://git-scm.com/downloads)
