@@ -15,7 +15,7 @@ def OAuth():
 		return None
 
 oauth = OAuth()
-api = tweepy.API(oauth)
+api = tweepy.API(oauth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 def tweet():
 	api.update_status('your tweet goes here {}'.format(time.ctime())) # Your tweet cannot exceed 256 characters

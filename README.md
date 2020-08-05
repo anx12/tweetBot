@@ -14,7 +14,7 @@ https://developer.twitter.com/apps
 
 * [Git](https://git-scm.com/downloads)
 
-* [Heroku Account](https://www.heroku.com/)
+* [Heroku Account](https://www.heroku.com/) (Only if you are planning to run the script on a server)
 
 * [Python](https://www.python.org/downloads/)
 
@@ -23,12 +23,12 @@ Additional info: Each tweet send from a single twitter account has to be unique 
 
 
 # Running the script
-   ```I would recommend running the script locally on your machine
-   If you do plan to run the script on a server then
+## I would recommend running the script locally on your machine
+   ```If you do plan to run the script on a server then
    increase the time from 60 seconds to 180 seconds
    ```
 
-1. If you want to run the script locally on your machine just run the script.py:
+1. If you want to run the script locally on your machine just run the ```script.py``` file.
    NOTE-If you are using Windows you need to install python https://www.python.org/downloads/
    Open terminal or command-prompt in the folder where your script.py is saved and enter the following commands:
    ```bash
