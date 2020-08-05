@@ -24,6 +24,7 @@ Additional info: Each tweet send from a single twitter account has to be unique 
 
 # Running the script
 ## I would recommend running the script locally on your machine
+
    ```If you do plan to run the script on a server then
    increase the time from 60 seconds to 180 seconds
    ```
